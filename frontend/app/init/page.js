@@ -24,7 +24,7 @@ const pipelineStages = [
   { name: "Fechamento", count: 2, value: "R$ 45.000" },
 ]
 
-  const tasks = [
+const tasks = [
   { id: 1, title: "Ligar para Ana Silva", priority: "Alta", due: "Hoje", type: "call" },
   { id: 2, title: "Enviar proposta para Tech Solutions", priority: "Média", due: "Amanhã", type: "email" },
   { id: 3, title: "Reunião com Digital Corp", priority: "Alta", due: "Sexta", type: "meeting" },

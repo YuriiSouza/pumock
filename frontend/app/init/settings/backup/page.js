@@ -35,7 +35,7 @@ export default function BackupSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Configurações de Backup */}
       <Card>
         <CardHeader>
@@ -96,7 +96,7 @@ export default function BackupSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Histórico de Backups */}
       <Card>
         <CardHeader>

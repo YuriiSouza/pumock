@@ -9,7 +9,6 @@ import { CheckCircle, Shield, Download } from "lucide-react";
 
 export default function BillingSettings(){
   return (
-
     <div className="space-y-6">
       {/* Plano Atual */}
       <Card className="border-blue-200 bg-blue-50">
@@ -34,7 +33,7 @@ export default function BillingSettings(){
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Histórico de Faturas */}
       <Card>
         <CardHeader>
@@ -100,7 +99,7 @@ export default function BillingSettings(){
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Método de Pagamento */}
       <Card>
         <CardHeader>

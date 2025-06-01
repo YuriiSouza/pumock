@@ -15,6 +15,7 @@ import CardTitle from "@/components/cards/cardTitle"
 import CardContent from "@/components/cards/cardContent"
 import CardHeader from "@/components/cards/cardHeader"
 import Badge from "@/components/badge"
+import { useState } from "react"
 
 const suppliersData = [
   {
@@ -37,7 +38,9 @@ const suppliersData = [
 ]
 
 
-export default function Suppliers({dropdownOpen, setDropdownOpen}) {
+export default function Suppliers() {
+  const [dropdownOpen, setDropdownOpen] = useState(false)
+  
   return (    
     <div className="space-y-6">
       <div className="flex justify-between items-center">

@@ -63,7 +63,7 @@ export default function NotificationsSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Configurações Push */}
       <Card>
         <CardHeader>
@@ -94,7 +94,7 @@ export default function NotificationsSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Horários de Notificação */}
       <Card>
         <CardHeader>

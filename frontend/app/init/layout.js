@@ -9,7 +9,7 @@ export default function CRMLayout({ children }) {
   const [sidebarOpen, setSidebarOpen] = useState(false)
 
   return (
-    <div className="min-h-screen bg-slate-50" onClick={() => setDropdownOpen(null)}>
+    <div className="min-h-screen bg-slate-50 text-black" onClick={() => setDropdownOpen(null)}>
       <div className="flex">
         <Nav 
           sidebarOpen={sidebarOpen}

@@ -55,7 +55,7 @@ export default function IntegrationsSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* APIs e Webhooks */}
       <Card>
         <CardHeader>

@@ -13,6 +13,7 @@ import CardContent from "@/components/cards/cardContent"
 import Avatar from "@/components/avatar/avatar"
 import AvatarFallback from "@/components/avatar/avatarFallback"
 import Badge from "@/components/badge"
+import { useState } from "react"
 
 const clients = [
   {
@@ -49,7 +50,9 @@ const clients = [
   },
 ]
 
-export default function Clients({dropdownOpen, setDropdownOpen}){
+export default function Clients(){
+    const [dropdownOpen, setDropdownOpen] = useState(false)
+
     return (
       <div className="space-y-6">
         <div className="flex justify-between items-center">

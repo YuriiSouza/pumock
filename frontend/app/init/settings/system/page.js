@@ -57,7 +57,7 @@ export default function SystemSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Performance do Sistema */}
       <Card>
         <CardHeader>
@@ -97,7 +97,7 @@ export default function SystemSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Manutenção */}
       <Card>
         <CardHeader>
@@ -137,7 +137,7 @@ export default function SystemSettings() {
           </div>
         </CardContent>
       </Card>
-  
+
       {/* Atualizações */}
       <Card>
         <CardHeader>

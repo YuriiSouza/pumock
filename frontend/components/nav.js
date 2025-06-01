@@ -5,8 +5,10 @@ import { useRouter, usePathname } from "next/navigation"
 import { sidebarItems } from "./config/sidebaritens"
 import { X } from "lucide-react"
 
-export default function Nav() {
-  const [sidebarOpen, setSidebarOpen] = useState(false)
+export default function Nav({
+  sidebarOpen,
+  setSidebarOpen
+}) {
   const router = useRouter()
   const pathname = usePathname()
 
@@ -14,7 +16,7 @@ export default function Nav() {
     <div>
       {sidebarOpen && (
         <div
-          className="fixed inset-0 bg-black bg-opacity-50 z-40 lg:hidden"
+          className="fixed inset-0 bg-transparent z-40 lg:hidden"
           onClick={() => setSidebarOpen(false)}
         />
       )}
@@ -27,7 +29,7 @@ export default function Nav() {
         <div className="p-6">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-xl font-bold text-slate-900">CRM System</h1>
+              <h1 className="text-xl font-bold text-slate-900">Pumock</h1>
               <p className="text-sm text-slate-500">Gestão de relacionamento</p>
             </div>
             <button

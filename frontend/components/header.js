@@ -22,7 +22,9 @@ import AvatarFallback from "@/components/avatar/avatar"
 export default function Header(
   {
     activeTab,
-    setActiveTab
+    setActiveTab,
+    sidebarOpen,
+    setSidebarOpen
   })
   {
 

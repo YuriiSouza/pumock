@@ -1,17 +1,10 @@
 "use client"
 
-import type React from "react"
-
 import { useState } from "react"
 import { X, Calendar, Users, Flag, FileText } from "lucide-react"
 
-interface TaskModalProps {
-  isOpen: boolean
-  onClose: () => void
-  onSave: (task: any) => void
-}
 
-export function TaskModal({ isOpen, onClose, onSave }: TaskModalProps) {
+export function TaskModal({ isOpen, onClose, onSave }) {
   const [formData, setFormData] = useState({
     title: "",
     description: "",
@@ -25,7 +18,7 @@ export function TaskModal({ isOpen, onClose, onSave }: TaskModalProps) {
 
   if (!isOpen) return null
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = (e) => {
     e.preventDefault()
     onSave(formData)
     setFormData({

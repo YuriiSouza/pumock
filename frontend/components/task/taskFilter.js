@@ -3,13 +3,7 @@
 import { useState } from "react"
 import { Filter, X, Calendar, Users, Flag, Search } from "lucide-react"
 
-interface TaskFiltersProps {
-  isOpen: boolean
-  onClose: () => void
-  onApplyFilters: (filters: any) => void
-}
-
-export function TaskFilters({ isOpen, onClose, onApplyFilters }: TaskFiltersProps) {
+export function TaskFilters({ isOpen, onClose, onApplyFilters }) {
   const [filters, setFilters] = useState({
     search: "",
     status: "all",

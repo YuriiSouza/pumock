@@ -77,7 +77,7 @@ export default function IntegrationsSettings() {
               </Button>
             </div>
           </div>
-          <div className="space-y-3">
+          {/* <div className="space-y-3">
             <h4 className="font-medium text-slate-900">Webhooks Configurados</h4>
             {[
               { url: "https://app.exemplo.com/webhook/vendas", event: "Nova Venda", status: "Ativo" },
@@ -100,7 +100,7 @@ export default function IntegrationsSettings() {
               <Plus className="h-4 w-4 mr-2" />
               Adicionar Webhook
             </Button>
-          </div>
+          </div> */}
         </CardContent>
       </Card>
     </div>
